@@ -1,0 +1,143 @@
+body{
+    background-color: #f8fafc;
+}
+.banner{
+    width: 100%;
+    padding: 64px 0;
+}
+.banner>img{
+    min-width: 100%;
+    object-fit: cover;
+}
+.introduce-com{
+    padding: 0 10%;
+    margin-bottom: 64px;
+}
+.introduce-com .com-content{
+    color: #515151;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    margin-bottom: 32px;
+}
+.introduce-com .button{
+    margin: auto;
+    font-weight: bold;
+    background-color: #007bc5;
+    max-width: 143px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 4px;
+    display: block;
+}
+.introduce-com .button a{
+    color: #fff;
+    display: block;
+}
+.introduce-com .button:hover{
+    background-color: #333539;
+    transition: .25s ease-out;
+    /* cursor: pointer; */
+}
+.achievements{
+    width: 100%;
+    height: 380px;
+    background-color: #239be0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10%;
+    margin-bottom: 64px;
+}
+h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.achievements div{
+    height: 164px;
+    width: 20%;
+    margin: auto;
+}
+.achievements div span{
+    font-size: 60px;
+}
+.benefits-content{
+    height: 687px;
+    margin: 0 30px 64px 30px;
+    display: flex;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px rgb(0 0 0 / 6%);
+    overflow: hidden;
+}
+.benefits-right-content{
+    width: 50%;
+    height: 100%;
+}
+.benefits-right-content>img{
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+}
+.benefits-right-content>img:last-child{
+    margin-top: 32.67px;
+}
+.benefits-left-content{
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 25px;
+    height: 100%;
+}
+h3{
+    font-size: 26px;
+}
+.benefits{
+    width: 85%;
+    height: 300px;
+    margin: 20px 0;
+}
+.benefits .icon{
+    font-size: 40px;
+}
+.benefits .title{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.benefits .body{
+    font-size: 16px;
+    line-height: 33px;
+    margin-bottom: 20px;
+}
+.benefits .more-details{
+    display: block;
+}
+.benefits .more-details a{
+    --tw-text-opacity: 1;
+    color: rgba(0, 101, 238, var(--tw-text-opacity));
+    font-weight: 500;
+    opacity: 0.9;
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 24px;
+}
+.more-details a span{
+    position: absolute;
+    left: 0;
+}
+.benefits .more-details a:hover{
+    --tw-text-opacity: 1;
+    color: rgba(0, 59, 174, var(--tw-text-opacity));
+    font-weight: 800;
+}
+.more-details a i{
+    font-size: 24px;
+    right: 0;
+    top: -4px;
+    position: absolute;
+}

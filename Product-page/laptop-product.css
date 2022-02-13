@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(248 250 252);
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.mb15{
+    margin-bottom: 10px;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px 15px;
+    width: 100%;
+    padding: 0 25px;    
+}
+
+.product .product-wrapper {
+    
+    background-color: #fff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    border-radius: 16px;
+    /* height: 100%; */
+    padding: 25px;
+}
+
+.product .product-wrapper a {
+    color: #000;
+    font-size: 18px;
+}
+
+.product .product-wrapper a .product-image {
+    text-align: center;
+}
+
+.product .product-wrapper a .product-image img {
+    width: 80%;
+    object-fit: cover;
+}
+
+.product .product-wrapper a .product-title {
+    font-weight: 600;
+}
+
+.product .product-wrapper a .price-current {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.product .product-wrapper a .price-current span{
+    color: rgb(254 61 107);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product .product-wrapper a .price-sale {
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(236, 240, 244);
+}
+
+.product .product-wrapper a .price-sale del{
+    text-decoration: line-through;
+    opacity: 0.7;
+    font-weight: normal;
+}
+
+.product .product-wrapper a .voucher {
+    display: flex;
+    align-items: center;
+    
+}
+
+.product .product-wrapper a .voucher .icon {
+    color: rgba(122, 74, 236);
+    font-size: 16px;
+}
+
+.product .product-wrapper a .content {
+    font-size: 12px;
+    margin-left: 5px;
+}

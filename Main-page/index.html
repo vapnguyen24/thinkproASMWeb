@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThinkPro - Hệ thống Máy tính và Phụ kiện</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "107806398493534");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <header>     
+        <nav>
+            <label class="logo">
+                <span class="style1">Think</span><span class="style2">Pro</span>
+            </label>
+            <ul>
+                <li><a href="#1">Trang Chủ</a></li>
+                <li><a href="/Introduce-page/introduce.html">Giới thiệu</a></li>
+
+                <li>
+                    <a href="/Product-page/products-page.html">Sản Phẩm<i class='bx bx-chevron-down'></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="">Laptop</a></li>
+                        <li><a href="">Máy tính bàn</a></li>
+                        <li><a href="">Phụ kiện</a></li>
+                    </ul>
+                </li>
+                <li><a href="/News-page/news.html">Tin tức</a></li>
+                <li><a href="/Contact-page/contact.html">Hỗ trợ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <aside class="news p0-25">
+            <div class="news-left">
+                <div class="news-img">
+                    <img src="/Images/img-header/img1.jpg" alt="">
+                </div>
+                <div class="news-thumb">
+                    <div class="box border-right"><a href="#">Xóa tan nỗi lo Laptop cho Designer ngân sách hạn chế</a></div>
+                    <div class="box border-right"><a href="#">Noel trẩy hội, quà tặng dữ dội</a></div>
+                    <div class="box border-right"><a href="#">Mừng sinh nhật Think, linh đình quà tặng</a></div>
+                    <div class="box"><a href="#">Sức mạnh vượt trội, hội tụ tinh hoa cùng MSI Modern 14 B5M</a></div>
+                </div>
+            
+            </div>
+            <div class="news-right">
+                <h3 class="title">
+                    <a href="#">
+                        Xóa tan nỗi lo Designer ngân sách hạn chế với loạt laptop được giảm giá sốc tại ThinkPro
+                    </a>
+                </h3>
+                <h3 class="title">
+                    <a href="#">
+                        Kì lạ một phần lô card EVGA RTX 30 mất tích tại San Francisco hiện đã trôi dạt tới Việt Nam?
+                    </a>
+                </h3>
+                <h3 class="title">
+                    <a href="#">
+                        Những sai lầm khi chọn mua Laptop đồ họa mà các Designer hay gặp phải
+                    </a>
+                </h3>
+                <div class="view-more-news">
+                    <a href="#">
+                        <span>Tất cả tin tức</span>
+                        <i class='bx bx-chevron-right'></i>
+                    </a>
+                </div>
+            </div>
+        </aside>
+        <!-- Sản phẩm Sale off -->
+        <div class="product-items p0-25">
+            <h2 class="title">Giảm giá sốc</h2>
+            <div class="column">
+                <div class="sale-items border-right border-left border-left-radius">
+                    <div class="image-items">
+                        <img src="/Images/img-saleoff-items/img.png" alt="">
+                    </div>
+                    <div class="name-items">Lenovo ThinkPad P53</div>
+                    <div class="code-items">SKU: ThinkPadP5310NU</div>
+                    <div class="price-sales">32.990.00 <span class="under-line">đ</span></div>
+                    <div class="price">35.000.00 <span class="under-line">đ</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="sale-items border-right">
+                    <div class="image-items">
+                        <img src="/Images/img-saleoff-items/img2.png" alt="">
+                    </div>
+                    <div class="name-items">Gigabyte U4</div>
+                    <div class="code-items">SKU: GIGABYTEU402CF
+                    </div>
+                    <div class="price-sales">25.490.00 <span class="under-line">đ</span></div>
+                    <div class="price">26.490.00 <span class="under-line">đ</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="sale-items border-right">
+                    <div class="image-items">
+                        <img src="/Images/img-saleoff-items/img3.png" alt="">
+                    </div>
+                    <div class="name-items">Gigabyte AORUS 15P</div>
+                    <div class="code-items">SKU: AERO15oled02CF</div>
+                    <div class="price-sales">40.490.00 <span class="under-line">đ</span></div>
+                    <div class="price">45.490.00 <span class="under-line">đ</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="sale-items border-right">
+                    <div class="image-items">
+                        <img src="/Images/img-saleoff-items/img4.png" alt="">
+                    </div>
+                    <div class="name-items">Gigabyte Aero 15</div>
+                    <div class="code-items">SKU: AERO15oled02CF</div>
+                    <div class="price-sales">47.990.00 <span class="under-line">đ</span></div>
+                    <div class="price">50.990.00 <span class="under-line">đ</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="sale-items border-right border-right-radius">
+                    <div class="image-items">
+                        <img src="/Images/img-saleoff-items/img5.png" alt="">
+                    </div>
+                    <div class="name-items">Lenovo 5i Pro Gen 6</div>
+                    <div class="code-items">SKU: IdeaPad5iPro1402CF</div>
+                    <div class="price-sales">15.990.00 <span class="under-line">đ</span></div>
+                    <div class="price">23.990.00 <span class="under-line">đ</span></div>
+                </div>
+            </div>       
+        </div>
+        <!-- Sản phẩm Sale off -->
+
+        <div class="view-all">
+            <a href="#2">Xem tất cả</a>
+        </div>
+        <!-- Sản phẩm Laptop -->
+        <div class="laptop-items p0-25">
+            <h2 class="title">Máy tính xách tay</h2>
+            <div class="brand-items">
+                <div class="title-font">Thương hiệu</div>
+                <div class="brands-name">
+                    <div><img src="/Images/img-brands/acer.png"></div>
+                    <div><img src="/Images/img-brands/apple.png"></div>
+                    <div><img src="/Images/img-brands/asus.png"></div>
+                    <div><img src="/Images/img-brands/dell.png"></div>
+                    <div><img src="/Images/img-brands/hp.png"></div>
+                    <div><img src="/Images/img-brands/lg.png"></div>
+                    <div><img src="/Images/img-brands/razer.png"></div>
+                    <div><img src="/Images/img-brands/msi.png"></div>
+                </div>
+                
+            </div>
+            <div class="price-area">
+                <div class="title-font">Khoảng giá</div>
+                <div class="content">
+                    <label>Trên 50 triệu</label>
+                    <label>40 - 50 triệu</label>
+                    <label>30 - 40 triệu</label>
+                    <label>20 - 30 triệu</label>
+                    <label>15 - 20 triệu</label>
+                    <label>10 - 15 triệu</label>
+                    <label>Dưới 10 triệu</label>
+                </div>
+            </div>
+            <div>
+            <div class="column">
+                <div class="sale-items border-right border-left">
+                    <div class="image-items">
+                        <img src="/Images/img-items/img1.png" alt="">
+                    </div>
+                    <div class="name-items">Asus Zenbook Q408UG</div>
+                    <div class="code-items">SKU: ZenbookQ408ug01NF
+                    </div>
+                    <div class="price-sales">18.490.000 <span class="under-line">đ</span></div>
+                    <div class="price">21.490.00 <span class="under-line">đ</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="sale-items border-right">
+                    <div class="image-items">
+                        <img src="/Images/img-items/img2.png" alt="">
+                    </div>
+                    <div class="name-items">Asus Vivobook 15 Pro Oled</div>
+                    <div class="code-items">SKU: Vivobook15POLED01CF</div>
+                    <div class="price-sales">24.980.000 <span class="under-line">đ</span></div>
+                    <div class="price">26.990.00 <span class="under-line">đ</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="sale-items border-right">
+                    <div class="image-items">
+                        <img src="/Images/img-items/img3.png" alt="">
+                    </div>
+                    <div class="name-items">Lenovo Ideapad 1</div>
+                    <div class="code-items">SKU: IdeaPad101CF</div>
+                    <div class="price-sales">8.490.000 <span class="under-line">đ</span></div>
+                    <div class="price">10.490.000 <span class="under-line">đ</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="sale-items border-right">
+                    <div class="image-items">
+                        <img src="/Images/img-items/img4.png" alt="">
+                    </div>
+                    <div class="name-items">HP 14s (Nhập khẩu)</div>
+                    <div class="code-items">SKU: HP14sN01NO</div>
+                    <div class="price-sales">14.490.000 <span class="under-line">đ</span></div>
+                    <div class="price">15.490.000 <span class="under-line">đ</span></div>
+                </div>
+            </div>  
+            <div class="column">
+                <div class="sale-items border-right">
+                    <div class="image-items">
+                        <img src="/Images/img-items/img5.png" alt="">
+                    </div>
+                    <div class="name-items">Dell Latitude 5410</div>
+                    <div class="code-items">SKU: Latitude541001NU</div>
+                    <div class="price-sales">15.990.000 <span class="under-line">đ</span></div>
+                    <div class="price">18.990.000 <span class="under-line">đ</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="sale-items border-right border-left">
+                    <div class="image-items">
+                        <img src="/Images/img-items/img6.png" alt="">
+                    </div>
+                    <div class="name-items">MSI Modern 15 AMD A5M 2021 (239VN)</div>
+                    <div class="code-items">SKU: Mo15A5MCH04CF
+                    </div>
+                    <div class="price-sales">18.290.000 <span class="under-line">đ</span></div>
+                    <div class="price">20.490.000 <span class="under-line">đ</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="sale-items border-right">
+                    <div class="image-items">
+                        <img src="/Images/img-items/img7.png" alt="">
+                    </div>
+                    <div class="name-items">Dell Inspiron 15 5515 AMD</div>
+                    <div class="code-items">SKU: Inspiron5515A01NS</div>
+                    <div class="price-sales">20.490.000 
+                    <span class="under-line">đ</span></div>
+                    <div class="price">22.490.000 <span class="under-line">đ</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="sale-items border-right">
+                    <div class="image-items">
+                        <img src="/Images/img-items/img8.png" alt="">
+                    </div>
+                    <div class="name-items">GIGABYTE G5 Gaming Laptop (KC-5S11130SB)</div>
+                    <div class="code-items">SKU: GigaG505CF</div>
+                    <div class="price-sales">27.480.000 <span class="under-line">đ</span></div>
+                    <div class="price">29.990.000 <span class="under-line">đ</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="sale-items border-right">
+                    <div class="image-items">
+                        <img src="/Images/img-items/img9.png" alt="">
+                    </div>
+                    <div class="name-items">ASUS ROG Strix G15 (G513)</div>
+                    <div class="code-items">SKU: StrixG51301CF</div>
+                    <div class="price-sales">28.990.000 <span class="under-line">đ</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="sale-items border-right">
+                    <div class="image-items">
+                        <img src="/Images/img-items/img10.png" alt="">
+                    </div>
+                    <div class="name-items">Acer Aspire 3 15 Intel (Chính hãng)</div>
+                    <div class="code-items">SKU:  Aspire315i04CF</div>
+                    <div class="price-sales">15.590.000 <span class="under-line">đ</span></div>
+                    <div class="price">16.990.000 <span class="under-line">đ</span></div>
+                </div>
+            </div>  
+            </div>
+            <div class="view-all">
+                <a href="#2">Xem tất cả</a>
+            </div>
+        </div>
+        <!-- Sản phẩm Laptop -->
+        <!-- Sản phẩm Gear -->
+        <div class="product-items p0-25">
+            <h2 class="title">Phụ kiện - Gear</h2>
+            <div class="column">
+                <div class="sale-items border-right border-left border-left-radius" style="
+                height: 425px;
+            ">
+                    <div class="image-items">
+                        <img src="/Images/img-gear-items/img1.png" alt="">
+                    </div>
+                    <div class="name-items">Chuột không dây Lenovo ThinkPad Laser Wireless Mouse Mice-Black</div>
+                    <div class="choice-items"><b>2</b> cấu hình lựa chọn</div>
+                    <div class="price-sales">499.000 <span class="under-line">đ</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="sale-items border-right" style="
+                height: 425px;
+            ">
+                    <div class="image-items">
+                        <img src="/Images/img-gear-items/img2.png" alt="">
+                    </div>
+                    <div class="name-items">Lót chuột Razer Goliathus Chroma Extended</div>
+                    <div class="choice-items"><b>3</b> cấu hình lựa chọn
+                    </div>
+                    <div class="price-sales">1.590.000 <span class="under-line">đ</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="sale-items border-right" style="
+                height: 425px;
+            ">
+                    <div class="image-items">
+                        <img src="/Images/img-gear-items/img3.png" alt="">
+                    </div>
+                    <div class="name-items">Ổ cứng SSD Lexar NS100 256GB Sata3 2.5 inch</div>
+                    <div class="choice-items"><b>1</b> cấu hình lựa chọn</div>
+                    <div class="price-sales">890.000 <span class="under-line">đ</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="sale-items border-right" style="
+                height: 425px;
+            ">
+                    <div class="image-items">
+                        <img src="/Images/img-gear-items/img4.png" alt="">
+                    </div>
+                    <div class="name-items">Ram Laptop Lexar 4GB(1x4GB) DDR4 2666Mhz</div>
+                    <div class="choice-items"><b>1</b> cấu hình lựa chọn</div>
+                    <div class="price-sales">890.000 <span class="under-line">đ</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="sale-items border-right border-right-radius" style="
+                height: 425px;
+            ">
+                    <div class="image-items">
+                        <img src="/Images/img-gear-items/img5.png" alt="">
+                    </div>
+                    <div class="name-items">Ổ cứng gắn ngoài WD My Passport Portable1TB - 2.5 inch</div>
+                    <div class="choice-items"><b>1</b> cấu hình lựa chọn</div>
+                    <div class="price-sales">1.599.000 <span class="under-line">đ</span></div>
+                </div>
+            </div>       
+        </div>
+        <div class="view-all">
+            <a href="#2">Xem tất cả</a>
+        </div>
+        <!-- Sản phẩm Gear -->
+
+    </article>
+    <footer>
+        
+        <div class="footer-container">
+            <a href="" class="footer-logo">
+                <span class="style1">Think</span><span class="style2">Pro</span>
+            </a>
+            <ul class="footer-list none">
+                <li style="width: 300px;">Địa chỉ: Số 5 + 7 Nguyễn Huy Tưởng, P6, Q.Bình Thạnh, TP HCM</li>
+                <li>Hotline: 1900.63.0000</li>
+                <li>Email: hi@thinkpro.vn</li>
+            </ul>
+        </div>
+        <div class="footer-container">
+            <div class="footer-heading">Thông tin</div>
+            <ul class="footer-list">
+                <li>Liên hệ</li>
+                <li>Về ThinkPro</li>
+            </ul>
+        </div>
+        <div class="footer-container">
+            <div class="footer-heading">Trợ giúp</div>
+            <ul class="footer-list">
+                <li>Chính sách bảo hành</li>
+                <li>Chính sách thanh toán</li>
+                <li>Hình thức vận chuyển</li>
+            </ul>
+        </div>
+        <div class="footer-container">
+            <div class="footer-heading">Mạng xã hội</div>
+            <ul class="footer-list">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Tik Tok</a></li>
+                <li><a href="#">Youtube</a></li>
+            </ul>
+        </div>
+        
+    </footer>
+</body>
+</html>
