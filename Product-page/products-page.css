@@ -426,6 +426,7 @@
 .right-content .next-page .page-number .number>div:nth-child(2) {
     background-color: #fff;
     border: 1px solid #ecf0f4;
+    cursor: default;
 }
 
 .right-content .next-page .page-number .number>div:nth-child(3) {
