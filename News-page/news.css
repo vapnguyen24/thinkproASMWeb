@@ -24,7 +24,6 @@ article{
     display: flex;
     color: #fff;
     width: 62%;
-    justify-content: space-between;
 }
 .heading ul li{
     padding-right: 20px;
