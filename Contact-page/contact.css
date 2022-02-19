@@ -118,7 +118,7 @@ article{
     display: flex;
     align-items: center;
     height: 60px;
-    width: 48%;
+    width: 47%;
     margin-top: 20px;
     --tw-bg-opacity: 1;
     background-color: rgba(248, 250, 252, var(--tw-bg-opacity));
@@ -141,8 +141,8 @@ article{
 
 .others-contact .left .col a>div .information{
     color: #000;
-    padding-left: 2px;
     font-weight: 500;
+    padding: 5px;
 }
 
 .left .icon-social-networks {
