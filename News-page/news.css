@@ -23,7 +23,7 @@ article{
     font-size: 22px;
     display: flex;
     color: #fff;
-    width: 60%;
+    width: 62%;
     justify-content: space-between;
 }
 .heading ul li{
@@ -40,7 +40,7 @@ article{
 /*  */
 
 .column1{
-    height: 350px;
+    height: 410px;
     width: 49%;
     float: left;
     display: flex;
